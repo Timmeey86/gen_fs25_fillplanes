@@ -19,7 +19,8 @@ Make sure both of these can be found in the system PATH. Reboot if necessary.
 
 ## How to use
 
-Assuming the preconditions are fulfilled, simply select a diffuse and normal PNG file and drag them onto the convert_textures.bat
+Assuming the preconditions are fulfilled, download the newest zip from the [Releases](releases) section and extract it.
+Then, simply select a diffuse and normal DDS or PNG file and drag them onto the convert_textures.bat
 Alternatively, call `python gen_fs25_fillplanes.py <diffuse_file> <normal_file>` from the command line.
 
 The script will place the converted textures in a "converted" subfolder next to the supplied diffuse file.
